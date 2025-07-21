@@ -1,6 +1,6 @@
 {
   "name": "MotionBlinds MQTT v2",
-  "version": "1.0",
+  "version": "2.0",
   "slug": "motionblinds_mqtt_v2",
   "description": "Bridge between MotionBlinds and MQTT using motionblinds library",
   "startup": "application",
