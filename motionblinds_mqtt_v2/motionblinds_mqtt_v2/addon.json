@@ -1,0 +1,38 @@
+{
+  "name": "MotionBlinds MQTT v2",
+  "version": "2.0",
+  "slug": "motionblinds_mqtt_v2",
+  "description": "Bridge between MotionBlinds and MQTT using motionblinds library",
+  "startup": "application",
+  "boot": "auto",
+  "arch": ["aarch64", "armv7", "amd64"],
+  "ingress": false,
+  "host_network": true,
+  "init": false,
+  "image": "ghcr.io/alexnikitos/motionblinds_mqtt-aarch64",
+  "options": {
+    "mqtt_broker": "",
+    "mqtt_port": 1883,
+    "mqtt_user": "",
+    "mqtt_password": "",
+    "mqtt_topic_state": "",
+    "mqtt_topic_command": "",
+    "api_key": "",
+    "blinds": []
+  },
+  "schema": {
+    "mqtt_broker": "str",
+    "mqtt_port": "int",
+    "mqtt_user": "str",
+    "mqtt_password": "str",
+    "mqtt_topic_state": "str",
+    "mqtt_topic_command": "str",
+    "api_key": "str",
+    "blinds": [
+      {
+        "ip": "str",
+        "mac": "str"
+      }
+    ]
+  }
+}
