@@ -9,7 +9,7 @@
   "ingress": false,
   "host_network": true,
   "init": false,
-  "image": "ghcr.io/alexnikitos/motionblinds_mqtt-aarch64",
+  "image": "ghcr.io/alexnikitos/motionblinds_mqtt-aarch64:2.0",
   "options": {
     "mqtt_broker": "",
     "mqtt_port": 1883,
