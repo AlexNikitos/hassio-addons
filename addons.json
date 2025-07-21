@@ -3,7 +3,7 @@
     "name": "MotionBlinds MQTT V2",
     "description": "Bridge between MotionBlinds and MQTT using motionblinds library",
     "slug": "motionblinds_mqtt_v2",
-    "url": "https://github.com/AlexNikitos/hassio-addons/tree/main/motionblinds_mqtt_v2",
+    "url": "https://github.com/AlexNikitos/hassio-addons-v2/tree/main/motionblinds_mqtt_v2",
     "maintainer": "AlexNikitos <deceit@narod.ru>"
   }
 }
