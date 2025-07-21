@@ -1,0 +1,9 @@
+{
+  "motionblinds_mqtt": {
+    "name": "MotionBlinds MQTT",
+    "description": "Bridge between MotionBlinds and MQTT using motionblinds library",
+    "slug": "motionblinds_mqtt",
+    "url": "https://github.com/AlexNikitos/hassio-addons/tree/main/motionblinds_mqtt",
+    "maintainer": "AlexNikitos <deceit@narod.ru>"
+  }
+}
